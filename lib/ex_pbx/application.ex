@@ -18,7 +18,7 @@ defmodule ExPbx.Application do
         sip_from: "sip:client@127.0.0.1",
         sip_uac_auto_register_timer: 1,
         plugins: [:nksip_uac_auto_auth, :nksip_uac_auto_register],
-        sip_listen: "<sip:all:5070;transport=tcp>"
+        sip_listen: "sip:all:5070"
       })
     ]
 
