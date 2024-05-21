@@ -5,7 +5,7 @@ defmodule ExPbx.MixProject do
     [
       app: :ex_pbx,
       version: "0.1.0",
-      elixir: "~> 1.16",
+      elixir: "~> 1.15",
       elixirc_paths: elixirc_paths(Mix.env()),
       erlc_include_path: erlc_include_path(Mix.env()),
       start_permanent: Mix.env() == :prod,
