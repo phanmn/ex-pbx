@@ -33,9 +33,9 @@ defmodule ExPbx.MixProject do
       {:nksip, git: "https://github.com/byronpc/nksip.git", branch: "master"},
       {:cowlib, "~> 2.13", override: true},
       {:gun, "~> 2.1", override: true},
-      {:cowboy, "~> 2.12", override: true},
-      {:ranch, "~> 1.8", override: true},
-      {:rfc3339, git: "https://github.com/talentdeficit/rfc3339.git", branch: "master", override: true}
+      {:rfc3339, git: "https://github.com/talentdeficit/rfc3339.git", branch: "master", override: true},
+      {:nkpacket, git: "git@github.com:phanmn/nkpacket.git", override: true},
+      {:nklib, [env: :prod, override: true, git: "https://github.com/byronpc/nklib", branch: "master"]}
     ]
   end
 end
