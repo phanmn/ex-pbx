@@ -93,9 +93,8 @@ sip_authorize(Auth, Req, _Call) ->
                     ok;             % Password is valid
                 false -> 
                     forbidden;      % User has failed authentication
-                undefined -> 
+                _ -> 
                     {proxy_authenticate, <<?DOMAIN>>}
-                    
             end
     end.
 
