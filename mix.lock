@@ -13,7 +13,7 @@
   "nklib": {:git, "https://github.com/byronpc/nklib", "9e587cf5314544bd2e9e55b1d0aedb55e5312718", [branch: "master"]},
   "nkpacket": {:git, "git@github.com:phanmn/nkpacket.git", "b7735eb1e9fcee8fd23602ffa9b93ca28d6f0d9f", []},
   "nkserver": {:git, "https://github.com/byronpc/nkserver", "23e1615b93404451ba5b0be9434015bbfad1fd66", [branch: "master"]},
-  "nksip": {:git, "https://github.com/byronpc/nksip.git", "5355e0363273acf5a2d271cdd17b494b4a2e048a", [branch: "master"]},
+  "nksip": {:git, "https://github.com/phanmn/nksip.git", "1a42e4f3638c93207137274d74dfdb6b196f10c0", [branch: "master"]},
   "parsexml": {:hex, :parsexml, "1.0.0", "62db6b80c2f55f7c0a8cbcd124b34b8e1c29eddcc88d13e170c3a1302a3e1e8d", [:rebar3], [], "hexpm", "d7f678be0d15a971927d9138c1ce962f81648f16e3233191ca37ba2638c06ac8"},
   "qdate": {:hex, :qdate, "0.7.2", "694f5763f1ff8318562fa1aa60e0c6d706c701ccfa5dd4b6eef24f659737d935", [:rebar3], [{:erlware_commons, "~> 1.6.0", [hex: :erlware_commons, repo: "hexpm", optional: false]}, {:qdate_localtime, "~> 1.2.0", [hex: :qdate_localtime, repo: "hexpm", optional: false]}], "hexpm", "920e4ffbceda459edbce73809587b1fa83c2ba3cd9d53e297b473b77d121830b"},
   "qdate_localtime": {:hex, :qdate_localtime, "1.2.1", "72e1034dc6b7fee8f588281eddd0bd0dc5260005d758052f50634d265d382c18", [:rebar3], [], "hexpm", "1109958d205c65c595c8c5694cb83ebaf2dbe770cf902e4dce8afb2c4123764d"},

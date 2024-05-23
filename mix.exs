@@ -30,7 +30,7 @@ defmodule ExPbx.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:nksip, git: "https://github.com/byronpc/nksip.git", branch: "master"},
+      {:nksip, git: "https://github.com/phanmn/nksip.git", branch: "master"},
       {:cowlib, "~> 2.13", override: true},
       {:gun, "~> 2.1", override: true},
       {:rfc3339, git: "https://github.com/talentdeficit/rfc3339.git", branch: "master", override: true},
